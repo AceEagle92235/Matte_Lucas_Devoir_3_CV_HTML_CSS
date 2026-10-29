@@ -1,0 +1,39 @@
+/* header */
+
+header {
+    background: #17ABB3;
+    color: #FFFFFF;
+
+    width: 100%;
+
+    display: flex;
+    gap: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* testing */
+header {
+    min-height: 15rem;
+}
+header p {
+    font-size: 1.5rem;
+}
+
+img {
+    padding: 3rem;
+
+    flex: 30 1 16rem; 
+
+    box-sizing: border-box;
+}
+
+.intro {
+    min-width: 0;
+
+    padding: 3rem;
+
+    flex: 70 1 calc(16rem * 70 / 30);
+
+    box-sizing: border-box;
+}

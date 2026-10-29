@@ -26,10 +26,14 @@ section ul {
     list-style: none;
 }
 
+.profil {
+    text-align: justify;
+}
 .description {
     margin: 0;
-    margin-left: 2rem;
     padding: 0;
+
+    text-indent: 2rem;
 }
 
 .time {
