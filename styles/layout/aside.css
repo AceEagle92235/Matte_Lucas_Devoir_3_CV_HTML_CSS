@@ -1,0 +1,79 @@
+/* aside */
+
+aside {
+    background: #F5F5F5;
+
+    padding: 0 3rem;
+    
+    flex: 30 1 16rem;  
+}
+
+aside h2 {
+    color: #17ABB3;
+
+    margin-bottom: .6rem;
+}
+aside hr {
+    margin: 0;
+    padding: 0;
+}
+aside ul {
+    margin: 1rem 0;
+    padding: 0;
+}
+
+/* 
+Remove default marker of li, 
+Fix spacing 
+*/
+.ability {
+    margin: .6rem 0;
+    padding: 0;
+
+    list-style-type: none;
+}
+/* 
+Align Language/Skill p in li, 
+Remove default spacing 
+*/
+.ability p {
+    margin: 0;
+    padding: 0;
+
+    display: inline-block;
+}
+/* Language/Skill name bold */
+.ability p:first-child {
+    font-weight: bold;
+}
+/* Language/Skill level to the right */
+.ability p:last-child {
+    float: right;
+}
+
+/* Language level specific style */
+.lang p:last-child {
+    font-size: 1.1rem;
+}
+
+/* Stars */
+.fa-star {
+    color: #17ABB3;
+
+    font-size: .8rem;
+}
+
+/* 
+Qualities/Interests list spacing,
+Remove default marker 
+*/
+.list {
+    margin: 1rem 1.3rem;
+
+    list-style: square;
+}
+.list li::marker {
+    color: #17ABB3;
+
+    font-size: 1.5rem;
+}
