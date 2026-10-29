@@ -77,9 +77,18 @@ Matte_Lucas_Devoir_3_CV_HTML_CSS/
 - flex-direction
 - flex-wrap
 
+##### Grid
+
+- grid-template-columns
+- grid-template-rows
+
 #### Lists
 
 - list-style-type
+
+#### Border
+
+- border
 
 #### Misceleanous
 

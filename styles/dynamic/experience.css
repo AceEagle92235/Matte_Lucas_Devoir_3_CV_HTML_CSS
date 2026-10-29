@@ -3,5 +3,7 @@
 .experience:hover {
     background: #E3E3E3;
 
+    padding-left: .5rem;
+
     border-left: .3rem solid #17ABB3;
 }
