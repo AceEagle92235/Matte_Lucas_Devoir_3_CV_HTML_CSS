@@ -19,11 +19,13 @@ Matte_Lucas_Devoir_3_CV_HTML_CSS/
 │   ├── components/
 │   ├── dynamic/
 │   │   ├── experience.css
-│   │   └── image.css
+│   │   ├── image.css
+│   │   └── social.css
 │   ├── pages/
 │   └── icons/
 └── assets/
     ├── images/
+    │   └── photo-profil.jpg
     ├── icons/
     │   └── favicon.ico
     └── fonts/

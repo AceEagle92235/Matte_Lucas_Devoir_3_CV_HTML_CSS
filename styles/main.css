@@ -13,7 +13,9 @@
     /* content */
     @import "layout/aside.css";
     @import "layout/section.css";
+
     /* footer */
+    @import "layout/footer.css";
 
 /* components */
 
@@ -24,3 +26,5 @@
 /* dynamic */
 @import "dynamic/experience.css";
 @import "dynamic/image.css";
+@import "dynamic/social.css";
+

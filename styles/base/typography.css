@@ -46,6 +46,8 @@
 
 /* Text of content */
 body {
+  color: #333333;
+
   font-family: 'Raleway', sans-serif;
   font-size: 1 rem;
 }
