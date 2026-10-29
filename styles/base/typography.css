@@ -65,3 +65,10 @@ h2 {
   margin: 3rem 0 .5rem;
   padding: 0;
 }
+
+hr {
+  border: 1px solid #00000010;
+
+  margin: 0;
+  padding: 0;
+}

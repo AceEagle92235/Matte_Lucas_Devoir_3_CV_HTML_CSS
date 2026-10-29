@@ -1,6 +1,7 @@
 /* main */
 
 /* base */
+@import "base/typography.css";
 
 /* layout */
     /* wrapper */
@@ -10,7 +11,7 @@
 
     /* content */
     @import "layout/aside.css";
-
+    @import "layout/section.css";
     /* footer */
 
 /* components */
@@ -20,3 +21,4 @@
 @import url("https://flaticon.com");
 
 /* dynamic */
+@import "dynamic/experience.css";

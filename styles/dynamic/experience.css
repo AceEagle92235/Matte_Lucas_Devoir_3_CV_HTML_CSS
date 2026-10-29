@@ -1,0 +1,7 @@
+/* dynamic experience */
+
+.experience:hover {
+    background: #E3E3E3;
+
+    border-left: .3rem solid #17ABB3;
+}

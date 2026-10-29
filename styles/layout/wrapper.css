@@ -21,17 +21,3 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
 }
-
-aside,
-section {
-  padding: 3rem;
-
-  box-sizing: border-box;
-}
-
-hr {
-    border: 1px solid #00000010;
-
-    margin: 0;
-    padding: 0;
-}

@@ -1,0 +1,60 @@
+/* section */
+
+section {
+    background: #FFFFFF;
+
+    min-width: 0;
+
+    padding: 3rem;
+
+    flex: 70 1 calc(16rem * 70 / 30);
+
+    box-sizing: border-box;
+}
+
+section h2 {
+    color: #17ABB3;
+}
+/* 
+Experience list spacing,
+Remove default marker 
+*/
+section ul {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.description {
+    margin: 0;
+    margin-left: 2rem;
+    padding: 0;
+}
+
+.time {
+    color: #17ABB3;
+
+    margin: 1rem 0;
+
+    float: right;
+}
+
+.experience {
+    margin: .5rem 0;
+    padding: .5rem;
+}
+.experience p {
+    margin: 0;
+    padding: 0;
+}
+.experience .name p:first-child {
+    font-weight: bold;
+}
+.experience .name p:last-child {
+    font-style: italic;
+    font-size: 0.8rem;
+}
+.name {
+    display: inline-block;
+}

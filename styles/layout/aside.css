@@ -3,9 +3,11 @@
 aside {
     background: #F5F5F5;
 
-    padding: 0 3rem;
-    
-    flex: 30 1 16rem;  
+    padding: 3rem;
+
+    flex: 30 1 16rem; 
+
+    box-sizing: border-box;
 }
 
 aside h2 {
@@ -13,13 +15,22 @@ aside h2 {
 
     margin-bottom: .6rem;
 }
-aside hr {
-    margin: 0;
-    padding: 0;
-}
 aside ul {
     margin: 1rem 0;
     padding: 0;
+
+    margin: 1rem 1.3rem;
+
+    list-style: none;
+}
+/* 
+Qualities/Interests list spacing,
+Remove default marker 
+*/
+aside li::marker {
+    color: #17ABB3;
+
+    font-size: 1.5rem;
 }
 
 /* 
@@ -61,19 +72,4 @@ Remove default spacing
     color: #17ABB3;
 
     font-size: .8rem;
-}
-
-/* 
-Qualities/Interests list spacing,
-Remove default marker 
-*/
-.list {
-    margin: 1rem 1.3rem;
-
-    list-style: square;
-}
-.list li::marker {
-    color: #17ABB3;
-
-    font-size: 1.5rem;
 }
