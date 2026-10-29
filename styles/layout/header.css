@@ -24,6 +24,7 @@ header p {
     font-size: 1.4rem;
 }
 
+/* box with photo inside */
 .photo {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -34,6 +35,7 @@ header p {
 
     align-self: center;
 }
+/* Name and contacts */
 .intro {
     min-width: 0;
     margin-bottom: 2rem;
@@ -47,6 +49,7 @@ header p {
     text-align: center;
 }
 
+/* Grid of contacts */
 header .contacts {
     width: 18rem;
     padding-left: 4rem;
@@ -60,6 +63,7 @@ header .contacts {
     justify-self: center;
 }
 
+/* round photo + border of photo */
 header img {
     width: 40%;
 

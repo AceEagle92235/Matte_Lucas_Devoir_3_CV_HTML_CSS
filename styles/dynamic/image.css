@@ -1,0 +1,5 @@
+/* dynamic image */
+
+header img:hover {
+    cursor: zoom-in;
+}

@@ -1,5 +1,6 @@
 /* wrapper */
 
+/* page background */
 html, 
 body {
     background: #E3E3E3;
@@ -8,6 +9,7 @@ body {
     padding: 0;
 }
 
+/* flex wrapper for main contentn limited to 1160px, centered */
 .wrapper {
     background: #FFFFFF;
 

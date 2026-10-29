@@ -44,21 +44,22 @@
 /* Import Lato (Regular, Bold, Italic, Bold Italic) */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/* content */
+/* Text of content */
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 1 rem;
 }
 
-/* headings */
+/* Text of headings */
 h1, h2 {
   font-family: 'Lato', sans-serif;
 }
 
+/* h1 size */
 h1 {
   font-size: 3.2rem;
 }
-
+/* h2 size, spacing */
 h2 {
   font-size: 1.4rem;
 
@@ -66,6 +67,7 @@ h2 {
   padding: 0;
 }
 
+/* All lines under titles */
 hr {
   border: 1px solid #00000010;
 
@@ -73,6 +75,7 @@ hr {
   padding: 0;
 }
 
+/* All links */
 a {
   color: inherit;
   

@@ -26,9 +26,11 @@ section ul {
     list-style: none;
 }
 
+/* profile */
 .profil {
     text-align: justify;
 }
+/* description indent */
 .description {
     margin: 0;
     padding: 0;
@@ -36,29 +38,35 @@ section ul {
     text-indent: 2rem;
 }
 
+/* spacing experience */
+.experience {
+    margin: .5rem 0;
+    padding: .5rem .5rem .5rem 0;
+}
+/* spacing of texts in experience */
+.experience p {
+    margin: 0;
+    padding: 0;
+}
+/* Name in experience are bold */
+.experience .name p:first-child {
+    font-weight: bold;
+}
+/* Place in experience are italic and smaller */
+.experience .name p:last-child {
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+/* Name + Place block inline in each experience */
+.name {
+    display: inline-block;
+}
+/* Times to the right */
 .time {
     color: #17ABB3;
 
     margin: 1rem 0;
 
     float: right;
-}
-
-.experience {
-    margin: .5rem 0;
-    padding: .5rem .5rem .5rem 0;
-}
-.experience p {
-    margin: 0;
-    padding: 0;
-}
-.experience .name p:first-child {
-    font-weight: bold;
-}
-.experience .name p:last-child {
-    font-style: italic;
-    font-size: 0.8rem;
-}
-.name {
-    display: inline-block;
 }
