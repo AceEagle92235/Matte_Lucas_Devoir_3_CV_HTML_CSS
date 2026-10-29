@@ -19,11 +19,13 @@ Matte_Lucas_Devoir_3_CV_HTML_CSS/
 │   ├── components/
 │   ├── dynamic/
 │   │   ├── experience.css
-│   │   └── image.css
+│   │   ├── image.css
+│   │   └── social.css
 │   ├── pages/
 │   └── icons/
 └── assets/
     ├── images/
+    │   └── photo-profil.jpg
     ├── icons/
     │   └── favicon.ico
     └── fonts/
@@ -77,9 +79,18 @@ Matte_Lucas_Devoir_3_CV_HTML_CSS/
 - flex-direction
 - flex-wrap
 
+##### Grid
+
+- grid-template-columns
+- grid-template-rows
+
 #### Lists
 
 - list-style-type
+
+#### Border
+
+- border
 
 #### Misceleanous
 

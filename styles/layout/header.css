@@ -1,0 +1,74 @@
+/* header */
+
+header {
+    background: #17ABB3;
+    color: #FFFFFF;
+
+    width: 100%;
+    min-height: 15rem;
+
+    display: flex;
+    gap: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    margin-bottom: 0;
+}
+header p {
+    margin-top: .8rem;
+    margin-bottom: 2rem;
+
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+/* box with photo inside */
+.photo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    flex: 30 1 16rem; 
+
+    box-sizing: border-box;
+
+    align-self: center;
+}
+/* Name and contacts */
+.intro {
+    min-width: 0;
+    margin-bottom: 2rem;
+
+    flex: 70 1 calc(16rem * 70 / 30);
+
+    box-sizing: border-box;
+}
+
+.photo, .intro {
+    text-align: center;
+}
+
+/* Grid of contacts */
+header .contacts {
+    width: 18rem;
+    padding-left: 4rem;
+
+    display: grid;
+    gap: .6rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    text-align: left;
+    justify-self: center;
+}
+
+/* round photo + border of photo */
+header img {
+    width: 40%;
+
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+
+    aspect-ratio: 1/1;
+}

@@ -1,0 +1,33 @@
+/* footer */
+
+footer {
+    color: #FFFFFF;
+    background: #17ABB3;
+
+    padding: .8rem;
+    width: 100%;
+
+    text-align: center;
+}
+
+/* socials icon list */
+footer ul {
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+}
+/* socials icon */
+footer li {
+    padding: 0 .4rem;
+
+    font-size: 1.5rem;
+
+    display: inline-block;
+}
+
+/* Last update text */
+footer>p {
+    font-style: italic;
+    font-size: .8rem;
+}

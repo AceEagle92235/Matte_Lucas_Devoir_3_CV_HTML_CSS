@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr-fr">
     <head>
         <meta charset="UTF-8">
-        <meta name="lang" content="fr-FR">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Matte_Lucas_Devoir_3_CV_HTML_CSS">
         <meta name="author" content="Lucas Matte">
@@ -12,6 +11,245 @@
     </head>
     <body>
         <main class="wrapper">
+            <header>
+
+                <!-- Profile photo -->
+
+                <div class="photo"><a href="assets/images/photo-profil.jpg" target="_blank"><img src="assets/images/photo-profil.jpg" alt="photo de profil"></a></div>
+                
+                <!-- Name, contacts -->
+
+                <div class="intro">
+                    <h1>Lucas Matte</h1>
+                    <p>Développeur Web et Web Mobile</p>
+                    <div class="contacts">
+                        <a href="mailto:mail@example.com"><i class="fa-solid fa-envelope"></i> Mail</a>
+                        <a href="https://www.google.com/maps"><i class="fa-solid fa-house"></i> Adresse</a>
+                        <a href="tel:0123456789"><i class="fa-solid fa-phone"></i> Téléphone</a>
+                        <a href=""><i class="fa-solid fa-car"></i> Permis B</a>
+                    </div>
+                </div>
+            </header>
+            <aside>
+
+                <!-- Skills 
+                 
+                <li> each skill
+                    <p>Name</p>
+                    <p>Stars</p>
+                </li>
+                -->
+
+                <h2 id="skills">Compétences</h2>
+                <hr>
+                <ul>
+                    <li class="skill ability">
+                        <p>HTML</p>
+                        <p>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </p>
+                    </li>
+                    <li class="skill ability">
+                        <p>CSS</p>
+                        <p>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </p>
+                    </li>
+                    <li class="skill ability">
+                        <p>Javascript</p>
+                        <p>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </p>
+                    </li>
+                    <li class="skill ability">
+                        <p>PHP</p>
+                        <p>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </p>
+                    </li>
+                </ul>
+
+                <!-- Languages 
+                 
+                <li> each language
+                    <p>Language</p>
+                    <p>Level</p>
+                </li>
+                -->
+
+                <h2 id="languages">Langues</h2>
+                <hr>
+                <ul>
+                    <li class="lang ability">
+                        <p>Français</p>
+                        <p>Langue maternelle</p>
+                    </li>
+                    <li class="lang ability">
+                        <p>Anglais</p>
+                        <p>Professionnel</p>
+                    </li>
+                </ul>
+
+                <!-- Qualities 
+                 
+                <li> each quality</li>
+                -->
+
+                <h2 id="qualities">Qualités</h2>
+                <hr>
+                <ul class="quality list">
+                    <li>Esprit d'équipe</li>
+                    <li>Autonomie</li>
+                    <li>Organisation</li>
+                    <li>Creativité</li>
+                </ul>
+
+                <!-- Interests 
+                 
+                <li> each interest</li>
+                -->
+
+                <h2 id="interests">Centres d'interêt</h2>
+                <hr>
+                <ul class="interest list">
+                    <li>Jeux Videos</li>
+                    <li>Mangas</li>
+                    <li>Coder des mods (débutant)</li>
+                </ul>
+            </aside>
+
+            <!-- Section -->
+
+            <section>
+
+                <!-- Profil -->
+
+                <h2 id="profil">Profil</h2>
+                <hr>
+                <p class="description">Né le <time datetime="2005-02-01">1er Février 2005</time>.</p>
+                <p class="description">Passionné par le web et l'informatique en général.</p>
+
+                <!-- Formation/Diplome 
+
+                <li> each formation/diploma
+                    <div>
+                        <p>name of formation/diploma</p>
+                        <p>name of school</p>
+                    </div>
+                    <p>Duration (formation) / Year (diploma)</p>
+                </li>
+                 -->
+
+                <h2 id="formation">Formation</h2>
+                <hr>
+                <ul class="list">
+                    <li class="formation experience">
+                        <div class="name">
+                            <p>Développeur Web et Web Mobile</p>
+                            <p>Centre Européen de formation</p>
+                        </div>
+                        <p class="time"><time datetime="2023">2026</time> - <time datetime="2024">en cours</time></p>
+                    </li>
+                    <li class="formation experience">
+                        <div class="name">
+                            <p>Licence Informatique (Abandonnée)</p>
+                            <p>Faculté des Sciences et Technologie de Nancy</p>
+                        </div>
+                        <p class="time"><time datetime="2023">2023</time> - <time datetime="2024">2026</time></p>
+                    </li>
+                    <li class="formation experience">
+                        <div class="name">
+                            <p>Baccalauréat</p>
+                            <p>Lycée Georges Baumont</p>
+                        </div>
+                        <p class="time"><time datetime="2020">2023</time></p>
+                    </li>
+                </ul>
+
+                <!-- Stages 
+
+                <li> each stage
+                    <div>
+                        <p>Role</p>
+                        <p>Name of company</p>
+                    </div>
+                    <p>Dates</p>
+                </li>
+                 -->
+
+                <h2 id="stages">Stages</h2>
+                <hr>
+                <ul class="list">
+                    <li class="stage experience">
+                        <div class="name">
+                            <p>Aucun stage</p>
+                            <p>_</p>
+                        </div>
+                        <p class="time">_</p>
+                    </li>
+                </ul>
+
+                <!-- Experiences 
+
+                <li> each experience
+                    <div>
+                        <p>Role</p>
+                        <p>Name of company</p>
+                    </div>
+                    <p>Dates</p>
+                </li>
+                 -->
+
+                <h2 id="professionel">Expériences Professionnelles</h2>
+                <hr>
+                <ul class="list">
+                    <li class="professionel experience">
+                        <div class="name">
+                            <p>Operateur de production</p>
+                            <p>Marcillat Corcieux</p>
+                        </div>
+                        <p class="time"><time datetime="2026-08-03">03 Aout 2026</time> - <time datetime="2026-08-09">09 Aout 2026</time></p>
+                    </li>
+                    <li class="professionel experience">
+                        <div class="name">
+                            <p>Operateur de production</p>
+                            <p>Marcillat Corcieux</p>
+                        </div>
+                        <p class="time"><time datetime="2026-07-13">13 Juillet 2026</time> - <time datetime="2026-07-19">19 Juillet 2026</time></p>
+                    </li>
+                    <li class="professionel experience">
+                        <div class="name">
+                            <p>Serveur</p>
+                            <p>Buffallo Grill Saint-Dié-des-Vosges</p>
+                        </div>
+                        <p class="time"><time datetime="2026-02-15">15 Fevrier 2025</time> - <time datetime="2026-02-23">23 Fevrier 2025</time></p>
+                    </li>
+                </ul>
+            </section>
+            <footer>
+                <ul>
+                    <li class="social"><a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+                    <li class="social"><a href="https://github.com"><i class="fab fa-github"></i></a></li>
+                    <li class="social"><a href="https://instagram.com"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+                <p>Mis à jour le: <time datetime="2026-10-29">29/10/2026</time></p>
+            </footer>
         </main>
     </body>
 </html>
